@@ -4,7 +4,7 @@
 
 CLaunch [官方網站][CLaunch Official]
 
-- 下載：請參閱本專案的 [Release](./releases) 頁面。
+- 下載：請參閱本專案的 [Release](https://github.com/undecV/CLaunch_ZH-TW/releases) 頁面。
 - 安裝：將語言模組檔案移動到 `%CLaunch安裝路徑%\Languages` 資料夾。
   - 請主意，若您安裝的 CLaunch 是 x64 或 x86 版本，請安裝對應的語言模組檔案，而不是跟隨作業系統。
 - 使用：
