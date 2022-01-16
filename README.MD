@@ -13,3 +13,8 @@ CLaunch [官方網站][CLaunch Official]
   - 選擇正體中文，點選 `OK`。
 
 [CLaunch Official]: https://hp.vector.co.jp/authors/VA018351/claunch.html
+
+Version History
+
+- `4.03-0006`
+  - Minor but necessary error correction.
