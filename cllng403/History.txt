@@ -1,0 +1,397 @@
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+    Changing history of the CLaunch language resource
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+  * IDS_VERSION in the string table is changed whenever new version
+    of project is released.
+
+---------------------------------------------------------------------
+ Changes in Version 4.03
+---------------------------------------------------------------------
+
+ All labels on the control ID have been changed to match Microsoft's
+ "The ID Prefix Naming Convention".
+
+ << Added >>
+    Dialogs:
+     IDD_WINDOWLIST
+
+ << Changed >>
+    Dialogs:
+     IDD_REG_ITEM
+      +IDC_ST_MESSAGE
+
+     IDD_OPT_CIRCLE
+      -IDCMB_ORIGIN
+      -IDCMB_ORIGIN2
+
+     IDD_SUPPRESS
+
+     IDD_ABOUT
+      +IDC_ST_URL_MIRROR
+
+
+---------------------------------------------------------------------
+ Changes in Version 4.00
+---------------------------------------------------------------------
+
+ The build environment has changed to Visual Studio Community 2019.
+
+ << Added >>
+    Menus:
+     MENU_SUBMENU
+
+    String Table:
+     IDS_DEF_MENU_NAME
+     IDS_SEARCH_ITEM
+     IDS_POS_CURSOR
+     IDS_POS_RIGHT
+     IDS_POS_UNDER
+     IDS_KEY_SEARCH
+     IDS_WARN_MULTI_DELETE
+     IDS_WARN_EXEC_UPDATE
+
+ << Deleted >>
+    String Table:
+     IDS_RECENT
+     IDS_CAP_TABB_DESIGN
+     IDS_TO_NORMAL
+     IDS_TO_HOVER
+     IDS_SELECTED
+
+ << Changed >>
+    Menus:
+     MENU_MAIN
+      +IDM_SEARCH_ITEM
+
+     MENU_BLANK
+      +IDM_ADD_SUBMENU
+
+    Dialogs:
+     DLG_BUTTON
+      +IDST_DISP_POS
+      +IDCMB_DISP_POS
+
+     DLG_ICON
+      IDLV_ICON -> IDLV_ICON1
+      +IDLV_ICON2
+      +IDR_MAIN
+      +IDR_OVERLAY
+      +IDST_MODE1
+      +IDST_MODE2
+      +IDCKB_OVERLAY
+      +IDE_ICON_FILE
+      +IDE_OVERLAY_FILE
+      +IDB_BROWSE_ICON
+      +IDB_BROWSE_OVERLAY
+      +IDE_OVERLAY_SIZE1
+      +IDE_OVERLAY_SIZE2
+      +IDCMB_OVERLAY_POS1
+      +IDCMB_OVERLAY_POS2
+      +IDB_UP1
+      +IDB_UP2
+      +IDB_DOWN1
+      +IDB_DOWN2
+      +IDB_LEFT1
+      +IDB_LEFT2
+      +IDB_RIGHT1
+      +IDB_RIGHT2
+      +IDB_RESETICON
+      +IDC_STATIC1
+      +IDC_STATIC2
+      +IDC_STATIC3
+      +IDC_STATIC4
+      +IDC_STATIC5
+      +IDC_STATIC6
+      +IDC_STATIC7
+      +IDC_STATIC8
+
+     DLG_OPT_PAGES
+      +IDST_TABIMG_N
+      +IDST_TABIMG_H
+      +IDST_TABIMG_A
+      +IDST_BTNIMG_N
+      +IDST_BTNIMG_H
+      +IDST_BTNIMG_D
+      -IDST_TAB_IMAGE
+      -IDST_TABB_IMAGE
+      -IDST_BTN_IMAGE
+      -IDB_BTN_TO_TAB
+      -IDB_TAB_TO_TABB
+      -IDB_TAB_TO_BTN
+      -IDB_TABB_TO_TAB
+      -IDB_TAB_CHANGE
+      -IDB_TABB_CHANGE
+      -IDB_BTN_CHANGE
+      -IDR_NORMAL
+      -IDR_HOVER
+      -IDE_BRIGHTNESS
+      -IDB_COPY_COLOR
+
+     DLG_OPT_OTHER
+      +IDCKB_CLOSE_SRCHWND
+      -IDCKB_CACHEICON
+
+
+---------------------------------------------------------------------
+ Changes in Version 3.28
+---------------------------------------------------------------------
+
+ The build environment has changed to Visual Studio 2017.
+
+
+---------------------------------------------------------------------
+ Changes in Version 3.27
+---------------------------------------------------------------------
+
+ << Added >>
+    String Table:
+     IDS_DOCUMENT_FILE
+     IDS_KEY_SCRLUP
+     IDS_KEY_SCRLDN
+     IDS_MS_RB_WHEELUP
+     IDS_MS_RB_WHELLDOWN
+
+ << Changed >>
+    Dialogs:
+     DLG_LANGUAGE
+      IDL_LANGUAGE  +LBS_SORT
+
+     DLG_OPT_KEYBOARD
+      +IDCKB_INHSCR_KEYSEL
+
+     DLG_OPT_DESIGN2 -> DLG_OPT_PAGES
+      +IDCKB_SCRLRES_SHOW
+      +IDCKB_SCRLRES_LAUNCH
+
+     DLG_OPT_DESIGN3 -> DLG_OPT_DESIGN2
+
+
+---------------------------------------------------------------------
+ Changes in Version 3.25
+---------------------------------------------------------------------
+
+ << Added >>
+    Dialogs:
+     DLG_ADD_PAGE
+     DLG_OPT_DESIGN2 (Contents have been moved from the DLG_PAGE)
+     DLG_SUPPRESS
+
+    String Table:
+     IDS_EXIT_MENU
+     IDS_LIMIT_WND
+     IDS_MOUSE_RANGE2
+     IDS_MOUSE_RANGE3
+     IDS_MOUSE_RANGE4
+     IDS_MOUSE_RANGE5
+     IDS_LVCOL_EXE
+     IDS_LVCOL_CLASS
+     IDS_LVCOL_CAPTION
+     IDS_INFO_UPDATECOPY
+     IDS_INFO_RESTRICTED
+     IDS_INFO_UNRESTRICTED
+
+ << Deleted >>
+    Dialogs:
+     DLG_PAGE
+
+    String Table:
+     IDS_CAP_ADD_PAGE_DLG
+     IDS_SEARCH_EXE
+     IDS_WARN_SET_DEFAULT
+     IDS_WARN_COPY_DESIGN
+
+ << Changed >>
+    Dialogs:
+     DLG_OPT_RESTRICTION
+     DLG_OPT_DESIGN2 -> DLG_OPT_DESIGN3
+
+    String Table:
+     IDS_MOUSE_RANGE2 -> IDS_MOUSE_RANGE6
+     IDS_MOUSE_RANGE3 -> IDS_MOUSE_RANGE7
+     IDS_MOUSE_RANGE4 -> IDS_MOUSE_RANGE8
+     IDS_MOUSE_RANGE5 -> IDS_MOUSE_RANGE9
+     IDS_MOUSE_RANGE6 -> IDS_MOUSE_RANGE10
+     IDS_MOUSE_RANGE7 -> IDS_MOUSE_RANGE11
+     IDS_MOUSE_RANGE8 -> IDS_MOUSE_RANGE12
+
+
+---------------------------------------------------------------------
+ Changes in Version 3.23
+---------------------------------------------------------------------
+
+ << Added >>
+    String Table:
+     IDS_MONITOR_OFF
+
+ << Deleted >>
+    String Table:
+     IDS_ERR_SAME_DIR
+     IDS_CONF_UAC
+
+ << Changed >>
+    Dialogs:
+     DLG_BUTTON
+     DLG_OPT_CIRCLE
+     IDD_INSTALL
+
+
+---------------------------------------------------------------------
+ Changes in Version 3.22
+---------------------------------------------------------------------
+
+ << Added >>
+    String Table:
+     IDS_SHOW_HIDDEN
+     IDS_TERMINATE
+     IDS_SEARCH_EXE
+     IDS_MENU_OPTION
+     IDS_OPT_LASTFOLDER
+     IDS_OPT_CLIPBOARD
+     IDS_OPT_PARENT
+     IDS_B_ITEMPROP
+     IDS_B_PLUGINOPT
+     IDS_CORNER_RANGE
+     IDS_SIDE_RANGE
+     IDS_EXR_LEFT
+     IDS_EXR_UPPER
+     IDS_EXR_RIGHT
+     IDS_EXR_LOWER
+     IDS_KEY_OPENFLD
+     IDS_MKEY_COPYPATH
+     IDS_MKEY_OPENFLD
+     IDS_MS_RB_LB
+     IDS_MS_LB_RB
+     IDS_MS_LB_MB
+     IDS_MS_RB_MB
+     IDS_SWITCH_DISPMODE
+
+    Dialogs:
+     DLG_EDGE_RANGE
+
+ << Changed >>
+    Menus:
+     MENU_FOLDERMENU
+     MENU_EDGE
+
+    Dialogs:
+     DLG_BUTTON
+
+
+---------------------------------------------------------------------
+ Changes in Version 3.21
+---------------------------------------------------------------------
+
+ << Added >>
+    String Table:
+     IDS_FOLDER_MENU
+     IDS_MENU_CLIPBOARD
+     IDS_KEY_CLIPBOARD
+
+ << Changed >>
+    Menus:
+     MENU_PAGE
+
+    Dialogs:
+     DLG_OPT_OTHER
+
+
+---------------------------------------------------------------------
+ Changes in Version 3.20
+---------------------------------------------------------------------
+
+ << Added >>
+    Menus:
+     MENU_FOLDERMENU
+
+    Dialogs:
+     DLG_OPT_MENU
+     DLG_OPT_SKIN
+
+    String Table:
+     IDS_FMENUAUTO
+     IDS_KEY_MENU
+     IDS_MKEY_UP
+     IDS_MKEY_DOWN
+     IDS_MKEY_LEFT
+     IDS_MKEY_RIGHT
+     IDS_MKEY_FIRST
+     IDS_MKEY_LAST
+     IDS_MKEY_MULTISEL
+     IDS_MKEY_RANGESEL
+     IDS_MKEY_SELECTALL
+     IDS_MKEY_DESELECT
+     IDS_MKEY_SCRLUP
+     IDS_MKEY_SCRLDN
+     IDS_MKEY_PAGESCRLUP
+     IDS_MKEY_PAGESCRLDN
+     IDS_MKEY_OPENSUB
+     IDS_MKEY_CLOSE
+     IDS_MKEY_CLOSEALL
+     IDS_MKEY_OPEN
+     IDS_MKEY_CUT
+     IDS_MKEY_COPY
+     IDS_MKEY_PASTE
+     IDS_MKEY_DELETE
+     IDS_MKEY_PROP
+     IDS_MKEY_RENAME
+     IDS_MKEY_LOCATION
+     IDS_MKEY_NEWFOLDER
+     IDS_MKEY_PARENT
+     IDS_MKEY_SWITCHTIP
+     IDS_MKEY_SHELLMENU
+     IDS_MKEY_GENMENU
+     IDS_MSRNG_MENU
+     IDS_NEW_FOLDER
+     IDS_WARN_OPEN
+     IDS_WARN_DROP
+     IDS_INFO_REFRESHICON
+
+ << Deleted >>
+    Dialogs:
+     DLG_SKIN
+
+ << Changed >>
+    Dialogs:
+     DLG_DESIGN_SKIN
+     DLG_DESIGN_VECTOR
+     DLG_BUTTON
+     DLG_OPT_FOLDER
+     DLG_OPT_DESIGN2
+
+
+---------------------------------------------------------------------
+ Changes in Version 3.11
+---------------------------------------------------------------------
+
+ << Added >>
+    String Table:
+     IDS_WARN_BACKUP_EXISTS
+
+ << Changed >>
+    Dialogs:
+     DLG_BUTTON
+
+
+---------------------------------------------------------------------
+ Changes in Version 3.10
+---------------------------------------------------------------------
+
+ << Added >>
+    String Table:
+     IDS_RUNAS_USER
+     IDS_RUNAS_ADMIN
+     IDS_MENU_USER
+     IDS_MENU_ADMIN
+
+ << Deleted >>
+    String Table:
+     IDS_ERR_LAUNCH_FAILED
+
+ << Changed >>
+    Dialogs:
+     DLG_BUTTON
+     DLG_OPT_DISPLAY
+
