@@ -1,7 +1,5 @@
 # CLaunch 正體中文化
 
-當前語言模組對應版本：`CLaunch Unicode Ver. 4.05 (2022/04/02)`
-
 - CLaunch [官方網站][CLaunch Official]
 - CLaunch [官方語言模組倉庫][CLaunch Languages]
 
@@ -18,7 +16,7 @@ CLaunch 翻譯變成 GitHub 協作模式，
 4. 應用：
    - 在工作列的系統托盤圖示上右擊選單；選擇 `Languages...`；選擇**正體中文**；點選 `OK`。
 
-[CLaunch Official]: https://hp.vector.co.jp/authors/VA018351/claunch.html
+[CLaunch Official]: https://ss1.xrea.com/pyonkichi.g1.xrea.com/claunch.html
 [CLaunch Languages]: https://github.com/pyonky/CLaunch-Languages
 
 ## 版本歷史
